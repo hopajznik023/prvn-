@@ -1,0 +1,12 @@
+<Extensions>
+  <uap3:Extension Category="windows.fileTypeAssociation">
+    <uap3:FileTypeAssociation Name="foo" Parameters="&quot;%1&quot;">
+      <uap:SupportedFileTypes>
+        <uap:FileType>.foo</uap:FileType>
+      </uap:SupportedFileTypes>
+      <uap2:SupportedVerbs>
+        <uap3:Verb Id="Resize" Parameters="&quot;%1&quot; /p">Resize file</uap3:Verb>
+      </uap2:SupportedVerbs>
+    </uap3:FileTypeAssociation>
+  </uap3:Extension>
+</Extensions>
